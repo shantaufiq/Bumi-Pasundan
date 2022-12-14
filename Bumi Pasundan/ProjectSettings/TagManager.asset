@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Joystick
+  - Handle
+  - InputController
+  - Ground
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -11,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - char
   - 
   - 
   - 
@@ -40,4 +45,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2214757535
+    locked: 0
+  - name: Foreground
+    uniqueID: 3838537027
+    locked: 0
+  - name: Player
+    uniqueID: 3229721251
+    locked: 0
+  - name: Ground
+    uniqueID: 667730191
     locked: 0
